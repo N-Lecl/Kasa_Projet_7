@@ -1,6 +1,5 @@
 .banner {
       display: flex;
-      /* Ajout du filtre image  */
       background: url('../../assets/banner_picture.png'),
             url('../../assets/home_cover.png');
       background-position: center;

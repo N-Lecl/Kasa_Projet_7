@@ -26,5 +26,3 @@ export default function TextZone() {
             </main>
       );
 }
-
-// EN COURS A TERMINER

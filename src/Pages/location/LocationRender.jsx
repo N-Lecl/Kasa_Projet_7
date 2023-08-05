@@ -14,17 +14,13 @@ export default function Accomodation() {
       const dataSelection = datas.filter((data) => data.id === idParams);
 
       useEffect(() => {
-            // Si l'élément n'existe pas > navigate page not-found qui correspond à rien/tout le reste *
             if (dataSelection.length === 0) {
                   navigate('/not-found');
                   return;
             }
-            // dataExists true si l'élément existe
             setDataExists(true);
-            // Enregistrement de/des valeurs dans setter
             setImageSlider(dataSelection[0].pictures);
       }, [dataSelection, idParams, navigate]);
-      // Si il n'existe pas on retourne une valeur null pour empêcher le rendu
       if (!dataExists) {
             return null;
       }
@@ -82,27 +78,18 @@ export default function Accomodation() {
                                     {/*Creation d'un array de 5 stars vides */}
                                     <div className="host_stars">
                                           {[...Array(5)].map((_, index) => {
-                                                // Déclaration de index +1 dans notre tableau
                                                 const ratingValue = index + 1;
-                                                // On déclare une variable qui va accueillier nos 2 couleur de stars un peu plus bas
                                                 let starImage;
-                                                // Si le ratingValue est inférieur ou égal au rating number(data)
                                                 if (
-                                                      // Index +1
                                                       ratingValue <=
-                                                      // Nombre de rating dans data
                                                       ratingNumber
                                                 ) {
-                                                      // On récupére dans starImage l'étoile rouge
                                                       starImage = redStar;
                                                 } else {
-                                                      // ou grise...
                                                       starImage = greyStar;
                                                 }
-                                                // On retourne le résultat
                                                 return (
                                                       <img
-                                                            // On déclare key pour aider React à se repérer lors du changement des éléments du DomVirtuel au DomBrowser
                                                             key={index}
                                                             src={starImage}
                                                             alt="star"

@@ -6,9 +6,7 @@ import '../styles/about.css';
 
 export default function About() {
       const dataSelection = aboutData.map((data) => data);
-
-      // RECUPERATION DE NOS COLLAPSE DEPUIS DOSSIER DATA ABOUT
-
+      
       const fiability = dataSelection[0].Fiabilité;
       const respect = dataSelection[0].Respect;
       const service = dataSelection[0].Service;

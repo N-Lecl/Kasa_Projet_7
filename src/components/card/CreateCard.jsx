@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/galleryCard.css';
 
-// Le composant prend 3 propriétés en entrée
 export default function Card({ id, title, cover }) {
       return (
             <div className='gallery_card_block'>

@@ -1,0 +1,31 @@
+.textZone {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+}
+.title_error {
+      display: flex;
+      justify-content: center;
+      font-size: 100px;
+      color: #ff6060;
+      margin: 285px 0 0 auto;
+}
+.title_information {
+      font-size: 18px;
+      margin: 145px 0px 120px 0px;
+      width: 100%;
+      color: #ff6060;
+      text-align: center;
+}
+
+.redirection_home {
+      font-size: 14px;
+      color: #ff6060;
+      text-decoration: none;
+}
+
+.redirection_home a {
+      font-size: 14px;
+      color: #ff6060;
+}

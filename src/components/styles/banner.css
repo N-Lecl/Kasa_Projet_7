@@ -1,0 +1,50 @@
+.banner {
+      display: flex;
+      /* Ajout du filtre image  */
+      background: url('../../assets/banner_picture.png'),
+            url('../../assets/home_cover.png');
+      background-position: center;
+      background-size: cover;
+      margin: 10px auto;
+      width: 90%;
+      height: 111px;
+      border-radius: 10px;
+}
+
+.banner_about {
+      display: flex;
+      background-image: url('../../assets/about_cover.png');
+      background-position: center;
+      background-size: cover;
+      margin: 10px auto;
+      width: 90%;
+      height: 223px;
+      border-radius: 10px;
+}
+
+@media screen and (min-width: 767px) {
+      .banner,
+      .banner_about {
+            margin: 20px auto;
+            height: 200px;
+      }
+}
+
+.banner p {
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-left: 20px;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+      .banner p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            width: 100%;
+      }
+}

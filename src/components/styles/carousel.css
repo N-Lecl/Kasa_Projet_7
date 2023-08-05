@@ -1,0 +1,153 @@
+.carousel {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: flex-end;
+      flex-direction: row-reverse;
+      width: 90%;
+      height: 300px;
+      border-radius: 10px;
+      margin: 10px auto;
+      background-size: cover;
+      background-position: center;
+}
+
+.carousel img {
+      width: 35px;
+      margin: 30px 15px;
+}
+
+.counterDisplay {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: white;
+}
+
+.accomodation_description {
+      width: 100%;
+      color: #ff6060;
+      align-items: center;
+      margin: 0 auto;
+}
+
+@media screen and (min-width: 767px) {
+      .accomodation_description {
+            display: flex;
+      }
+}
+
+.accomodation_description_infos {
+      width: 100%;
+      margin: 0 auto;
+}
+
+h1 {
+      width: 100%;
+      font-size: 36px;
+}
+
+@media screen and (max-width: 767px) {
+      h1 {
+            font-size: 18px;
+      }
+}
+
+p {
+      color: #ff6060;
+      width: 100%;
+      font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+      p {
+            font-size: 14px;
+      }
+}
+
+button {
+      margin: 3px;
+      padding: 3px 2px;
+      background-color: #ff6060;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-size: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      font-family: 'Montserrat';
+      white-space: nowrap;
+      text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 767px) {
+      button {
+            width: 104px;
+      }
+}
+
+.host_information_block {
+      display: flex;
+      margin: 17px auto;
+      width: 100%;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+      .host_information_block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 0 auto;
+            width: 25%;
+      }
+}
+
+.host_information {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+      .host_information {
+            margin-bottom: 0;
+      }
+}
+
+.host_information img {
+      width: 64px;
+      border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+      .host_information img {
+            width: 32px;
+      }
+}
+
+.host_information span {
+      padding-right: 5px;
+      font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+      .host_information span {
+            font-size: 12px;
+      }
+}
+
+
+.host_stars img {
+      width: 14px;
+      padding-top: 10px;
+}
+
+@media screen and (min-width: 767px) {
+      .host_stars img {
+            width: 24px;
+      }
+}

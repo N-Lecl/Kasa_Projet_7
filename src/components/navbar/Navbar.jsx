@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Img from './LogoProps'; 
 import Logo from '../../assets/logo.png'; 
+import '../styles/navbar.css'; 
 
 // Crée un composant StyledHeader en utilisant styled-components, ce composant est un en-tête stylisé
 const StyledHeader = styled.nav`
@@ -16,6 +17,7 @@ const StyledHeader = styled.nav`
 // Crée un composant StyledLink en utilisant styled-components, ce composant est un lien stylisé
 const StyledLink = styled(Link)`
     padding: 5px;
+    margin-right: 0px;
     color: #ff6060;
     text-decoration: none;
     font-size: 16px;
@@ -40,9 +42,9 @@ export default function Navbar() {
                 <StyledUl>
                     <li>
                         {/* Utilise le composant StyledLink pour styliser le lien vers la page d'accueil */}
-                        <StyledLink to="/">Accueil</StyledLink>
+                        <StyledLink to="/" className="home-link">Accueil</StyledLink>
                         {/* Utilise le composant StyledLink pour styliser le lien vers la page À propos */}
-                        <StyledLink to="/about">À propos</StyledLink>
+                        <StyledLink to="/about" className="about-link">À propos</StyledLink>
                     </li>
                 </StyledUl>
             </StyledHeader>

@@ -11,7 +11,7 @@ export default function About() {
     const fiability = dataSelection[0].Fiabilité;
     const respect = dataSelection[0].Respect;
     const service = dataSelection[0].Service;
-    const securite = dataSelection[0].Fiabilité;
+    const securite = dataSelection[0].Sécurité;
 
     return (
         <div>

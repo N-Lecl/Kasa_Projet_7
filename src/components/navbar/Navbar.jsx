@@ -17,7 +17,6 @@ const StyledHeader = styled.nav`
 // Crée un composant StyledLink en utilisant styled-components, ce composant est un lien stylisé
 const StyledLink = styled(Link)`
     padding: 5px;
-    margin-right: 0px;
     color: #ff6060;
     text-decoration: none;
     font-size: 16px;

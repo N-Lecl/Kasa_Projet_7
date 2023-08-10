@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const StyledBanner = styled.footer`
     display: flex;
     background-color: black;
-    width: 90%;
+    width: 100%;
     height: 169px;
     margin: 0 auto;
     align-content: center;

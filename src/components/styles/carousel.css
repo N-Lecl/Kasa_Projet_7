@@ -22,7 +22,12 @@
       display: flex;
       justify-content: center;
       color: white;
-}
+  
+      /* Utilisation d'une règle de média query pour masquer en version mobile */
+      @media screen and (max-width: 767px) {
+          display: none;
+      }
+  }
 
 .accomodation_description {
       width: 100%;

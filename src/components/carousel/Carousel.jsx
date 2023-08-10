@@ -43,11 +43,13 @@ export default function Slider({ imageSlider }) {
                     <img
                         src={ArrowRight}
                         alt="slide"
+                        className="arrow arrowRight"
                         onClick={handleNextSlide}
                     />
                     {/* Flèche gauche pour la diapositive précédente */}
                     <img
                         src={ArrowLeft}
+                        className="arrow arrowLeft"
                         alt="slide"
                         onClick={handlePrevSlide}
                     />

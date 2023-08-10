@@ -10,6 +10,7 @@
       margin: 10px auto;
       background-size: cover;
       background-position: center;
+      position: relative;
 }
 
 .carousel img {
@@ -28,6 +29,21 @@
           display: none;
       }
   }
+
+.carousel img.arrow {
+position: absolute;
+top: 40%;
+transform: translateY(-50%);
+cursor: pointer;
+}
+
+.arrowLeft {
+left: 10px;
+}
+
+.arrowRight {
+right: 10px;
+} 
 
 .accomodation_description {
       width: 100%;
@@ -156,3 +172,4 @@ button {
             width: 24px;
       }
 }
+

@@ -7,12 +7,12 @@
 .title_error {
       display: flex;
       justify-content: center;
-      font-size: 100px;
+      font-size: 288px;
       color: #ff6060;
-      margin: 285px 0 0 auto;
+      margin: 50px 0 0 auto;
 }
 .title_information {
-      font-size: 18px;
+      font-size: 36px;
       margin: 145px 0px 120px 0px;
       width: 100%;
       color: #ff6060;
@@ -20,12 +20,12 @@
 }
 
 .redirection_home {
-      font-size: 14px;
+      font-size: 18px;
       color: #ff6060;
       text-decoration: none;
 }
 
 .redirection_home a {
-      font-size: 14px;
+      font-size: 18px;
       color: #ff6060;
 }

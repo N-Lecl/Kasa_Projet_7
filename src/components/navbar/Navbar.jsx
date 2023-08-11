@@ -25,7 +25,7 @@ const StyledLink = styled(Link)`
 // Crée un composant StyledUl en utilisant styled-components, ce composant est une liste stylisée
 const StyledUl = styled.ul`
     list-style-type: none;
-    padding: 5px; /* Ajoute le signe égale manquant */
+    padding: 5px; 
 `;
 
 // Définit un composant fonctionnel Navbar
